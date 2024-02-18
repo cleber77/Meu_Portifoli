@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My_Portifoli</string>
+    <string name="Text_nomeUsuario">Cleber Geraldo</string>
+    <string name="descricao_do_texto">
+
+        Nome Completo: Cleber Geraldo
+
+        Descrição:
+
+        Cleber Geraldo é um desenvolvedor Android sênior com uma paixão inigualável pela criação de experiências digitais inovadoras. Com mais de uma década de experiência no desenvolvimento de aplicativos móveis, ela traz consigo um profundo entendimento do ecossistema Android e uma dedicação incansável à excelência técnica.
+      
+        \n\n\
+
+        <b><font color='#FF0000'>Habilidades</font></b>
+        \n\n
+        
+        Desenvolvimento Android: Especialista em Kotlin, Cleber possui uma profunda compreensão do desenvolvimento Android nativo, entregando aplicativos robustos e eficientes.
+        \n\n
+        
+        Arquitetura de Software: Experiente na implementação de arquiteturas modernas como MVVM, Clean Architecture e Jetpack Compose, garantindo código modular e de fácil manutenção.
+        \n\n
+        
+        Testes Automatizados: Firme defensor da qualidade do software, Cleber implementa testes automatizados de unidade e UI para garantir a estabilidade e a confiabilidade de cada aplicativo.
+
+        Mentoria e Liderança Técnica: Além de suas habilidades técnicas, Cleber destaca-se como mentor, compartilhando conhecimento e orientando equipes para alcançarem seu melhor desempenho.
+       \n\n
+    </string>
+    <string name="txt_botao_projeto1">Progeto1</string>
+    <string name="txt_botao_contator">Contato</string>
+    <string name="title_toobar_contator">Contato</string>
+    <string name="title_toobar_progetor">Progetor</string>
+
+
+</resources>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.My_Portifoli" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+         <item name="colorPrimary">@color/blue</item>
+    </style>
+    <style name="TelaDeContato" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/dark_green</item>
+    </style>
+    <style name="TelaDeProgeto" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:statusBarColor">@color/dark_green</item>
+    </style>
+
+
+    <style name="Theme.My_Portifoli" parent="Base.Theme.My_Portifoli" />
+    <style name="Theme.TelaDeContato"  parent="TelaDeContato"/>
+    <style name="Theme.TelaDeProgeto" parent="TelaDeProgeto"/>
+
+</resources>

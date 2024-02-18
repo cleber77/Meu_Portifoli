@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/MinhaFotos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:rotation="-90"
+        android:src="@drawable/cleber_geraldo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/Text_nomeUsuario"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/borda_scrovil">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/descricao_do_texto"
+            android:textSize="14sp" />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btProjeto1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginHorizontal="100dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/txt_botao_projeto1"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btContator"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginHorizontal="100dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/txt_botao_contator"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
